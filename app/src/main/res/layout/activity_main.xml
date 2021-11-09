@@ -4,4 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/android_green"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICK ON ME"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="449dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
